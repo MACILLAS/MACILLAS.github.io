@@ -1,0 +1,2 @@
+File	Time	X	Y	Z	yaw	pitch	roll
+1.JPG	123.45	0	0	0	171.0	-0.18	-1.9
