@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/smi_viewer.iml" filepath="$PROJECT_DIR$/.idea/smi_viewer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../MACILLAS.github.io/.idea/MACILLAS.github.io.iml" filepath="$PROJECT_DIR$/../MACILLAS.github.io/.idea/MACILLAS.github.io.iml" />
     </modules>
   </component>
 </project>
