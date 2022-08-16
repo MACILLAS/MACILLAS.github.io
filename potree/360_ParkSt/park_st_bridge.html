@@ -70,7 +70,34 @@
 			material.size = 1;
 			material.pointSizeType = Potree.PointSizeType.ADAPTIVE;
 			material.shape = Potree.PointShape.SQUARE;
+			viewer.scene.addAnnotation([14.95, 6.51, 3.88],
+					{"title": "Name of site: Park Street Rail Bridge",
+						"cameraPosition": [5.535, 3.819, 1.949],
+						"cameraTarget": [95.002, 9.478, -1.265],
+						"description": 'Last Inspection: July 2020 <br/> Clearance 3.4m <br/> Measured Height 4m'});
+			viewer.scene.addAnnotation([15.11, 6.47, 2.00],
+					{"title": "Scaling on Pier",
+						"cameraPosition": [16.604, 0.319, 1.164],
+						"cameraTarget": [24.442, 33.900, 1.988],
+						"description": 'Condition: Poor (Area > 1 sq.m)'});
 
+			viewer.scene.addAnnotation([20.46, 6.21, 0.83],
+					{"title": "Concrete Spall",
+						"cameraPosition": [19.242, 1.787, 0.860],
+						"cameraTarget": [25.927, 14.676, 0.468],
+						"description": 'Condition: Poor (Area > 1 sq.m) <br/> Exposed Rebar <br/> Caused by vehicular collision'});
+
+			viewer.scene.addAnnotation([13.53, -1.5, -0.66],
+					{"title": "Scaling on Embankment",
+						"cameraPosition": [10.845, 2.411, -0.158],
+						"cameraTarget": [67.424, -81.543, -4.772],
+						"description": 'Condition: Poor (Area > 1 sq.m)'});
+
+			viewer.scene.addAnnotation([15.66, 3.88, -1.83],
+					{"title": "How To: 360 Inspect",
+						"cameraPosition": [4.948, 5.153, 1.366],
+						"cameraTarget": [15.410, -0.442, -1.296],
+						"description": '1. Select Bubble. (click unfocus to exit) <br/> 2. On Side Menu Enable Eye-Dome-Lighting <br/> 3. Use Slider to Decrease Opacity (remember to increase the opacity when finished)'});
 
 			run();
 			viewer.scene.view.position.set(5.535, 3.819, 1.949);
